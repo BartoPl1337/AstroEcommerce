@@ -1,10 +1,10 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import HeroSec from "../components/HeroSec";
-import ShopCategorySec from "../components/ShopCategorySec";
-import FeaturesSec from "../components/FeaturesSec";
-import DiscountSec from "../components/DiscountSec";
-import CustomersOpinionSec from "../components/CustomersOpinionSec";
+import HeroSec from "../components/HomePageComponents/HeroSec";
+import ShopCategorySec from "../components/HomePageComponents/ShopCategorySec";
+import FeaturesSec from "../components/HomePageComponents/FeaturesSec";
+import DiscountSec from "../components/HomePageComponents/DiscountSec";
+import CustomersOpinionSec from "../components/HomePageComponents/CustomersOpinionSec";
 import Footer from "../components/Footer";
 
 const HomePage = () => {

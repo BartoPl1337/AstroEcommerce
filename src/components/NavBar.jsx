@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav>
       <div className="px-20 flex items-center py-2.5">
         <h1 className="font-bold text-[#1E293B] pl-7 flex-1">
-          Astro Ecommerce
+          <Link to="/">Astro Ecommerce</Link>
         </h1>
 
         <ul className="flex-1 gap-6 flex justify-center">
