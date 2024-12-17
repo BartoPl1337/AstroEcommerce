@@ -10,7 +10,7 @@ const ShopCategorySec = () => {
         <h2 className="font-semibold text-3xl text-[#1E293B]">Shop Category</h2>
         <div className="flex items-center text-[#1E293B]">
           <h4 className="font-medium ">
-            <Link to="/categories">Browse all categories</Link>
+            <Link to="/Category">Browse all categories</Link>
           </h4>
           <ChevronRight />
         </div>

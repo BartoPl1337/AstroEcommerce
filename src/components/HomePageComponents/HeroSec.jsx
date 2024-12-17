@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeroSec = () => {
   return (
@@ -7,7 +8,9 @@ const HeroSec = () => {
         <div className='absolute top-48 text-white space-y-10 flex flex-col items-center'>
             <h1 className='font-bold text-5xl'>Collection is here</h1>
             <span className='text-lg w-full max-w-[650px] text-center'>The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out</span>
+            <Link to="Category">
             <button className='border rounded-md py-2 px-4 font-semibold'>Explore</button>
+            </Link>
         </div>
     </div>
   )

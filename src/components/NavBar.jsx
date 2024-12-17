@@ -18,13 +18,13 @@ const NavBar = () => {
 
         <ul className="flex-1 gap-6 flex justify-center">
           <li className="font medium hover:text-[#1E293B] text-[#64748B]">
-            <Link to="/store">Store</Link>
+            <Link to="/">Store</Link>
           </li>
           <li className="font medium hover:text-[#1E293B] text-[#64748B]">
-            <Link to="/designers">Designers</Link>
+            <Link to="/Category">Designers</Link>
           </li>
           <li className="font medium hover:text-[#1E293B] text-[#64748B]">
-            <Link to="/categories">Categories</Link>
+            <Link to="/Category">Categories</Link>
           </li>
         </ul>
         <div className="flex items-center gap-2 pr-7 flex-1 justify-end">
