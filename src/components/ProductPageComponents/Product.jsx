@@ -35,11 +35,20 @@ const Product = () => {
               <Heart size={24} />
             </div>
 
-            <div className='flex flex-col'>
+            <ul className='flex flex-col'>
               <AccordingProduct 
               title = "Features"
               />
-            </div>
+              <AccordingProduct
+              title = "Product care"
+              />
+              <AccordingProduct
+              title = "Shipping & Returns"
+              />
+              <AccordingProduct
+              title = "Warranty"
+              />
+            </ul>
           </div>
         </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const ProductsSec = () => {
 const[products, setProducts] = useState([])
@@ -20,6 +21,7 @@ const uniqueProducts = products.filter((product, index, self) =>
   return (
     <div className='grid grid-cols-3 gap-7'>
         {uniqueProducts.map((product) => (
+            <Link to="/Products">
             <div key={product.id} className='rounded-2xl flex flex-col shadow-lg px-4'>
                 <img src={product.image} alt={product.title} className='rounded-t-2xl object-contain h-[250px]'/>
                 <div className='flex flex-col space-y-3 my-6 text-center'>
@@ -28,6 +30,7 @@ const uniqueProducts = products.filter((product, index, self) =>
                     <h3 className='text-[#1E293B] font-semibold text-lg'>{product.price}</h3>
                 </div>
             </div>
+            </Link>
         ))}
     </div>
   )

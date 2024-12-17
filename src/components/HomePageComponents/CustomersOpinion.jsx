@@ -8,8 +8,8 @@ const CustomersOpinion = (props) => {
         <div className="flex">
           {[1, 2, 3, 4, 5].map((star, index) => (
             <Star
-              fill={index + 1 <= props.stars ? "#fde047" : "#fff"}
-              color="#64748B"
+              fill={index + 1 <= props.stars ? "#F19937" : "#fff"}
+              color="#F19937"
             />
           ))}
         </div>
