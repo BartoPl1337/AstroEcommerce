@@ -1,20 +1,36 @@
 import { Heart, Star } from 'lucide-react'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import AccordingProduct from './According-Product'
+import { useParams } from 'react-router-dom'
 
 const Product = () => {
+const[products, setProducts] = useState([])
+const params = useParams()
+useEffect(() => {
+  // console.log("uruchomiony")
+    fetch('https://fakestoreapi.com/products')
+    .then((res) => res.json())
+    .then((data) => {
+        setProducts(data)
+    })
+    .catch((error) => {
+        console.log(error)
+    })
+}, [])
+const found = products.find((product) => product.id === parseInt(params.id))
+console.log(products)
   return (
     <div className='my-28 mx-32'>
         <div className='flex flex-col mb-8 space-y-2'>
             <div className='flex'>
                 <span className='text-[#1E293B]/50 text-sm'>Store / <span className='text-[#1E293B]'>Designers</span></span>
             </div>
-            <h1 className='font-semibold text-[#1E293B]'>Product Name</h1>
+            <h1 className='font-semibold text-[#1E293B]'>{found.title}</h1>
         </div>
 
         <div className='flex'>
           <div className='flex-1'>
-            <img src="product1.png" alt="" className='object-cover'/>
+            <img src={found.image} alt="" className='object-cover'/>
           </div>
           <div className='flex-1 flex flex-col space-y-4'>
             <h1 className='font-bold text-4xl text-[#1E293B]'>Product name</h1>

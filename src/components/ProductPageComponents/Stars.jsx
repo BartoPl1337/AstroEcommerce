@@ -2,7 +2,6 @@ import { Star } from 'lucide-react'
 import React from 'react'
 
 const Stars = (props) => {
-    console.log(props.procent)
   return (
     <div className='flex gap-1.5 items-center'>
         <span className='text[#64748B]'>{props.star}</span>
