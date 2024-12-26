@@ -6,13 +6,15 @@ import CategoryPage from "./pages/CategoryPage";
 
 function App() {
   return (
-      <BrowserRouter>
+    <>
+      <BrowserRouter> 
         <Routes>
           <Route path="/" element={<HomePage />}/>
           <Route path="/Category" element={<CategoryPage />}/>
           <Route path="/Products/:id" element={<ProductPage />}/>
         </Routes>
       </BrowserRouter>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?",
         "category": "Category 1",
         "price": 100,
-        "image": "https://via.placeholder.com/150",
+        "image": "/whiteShirt.jpg",
         "stars": 4
     },
     {
@@ -14,7 +14,7 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?",
         "category": "Category 2",
         "price": 200,
-        "image": "https://via.placeholder.com/150",
+        "image": "/blackJacket.jpg",
         "stars": 5
     },
     {
@@ -23,7 +23,7 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?",
         "category": "Category 3",
         "price": 300,
-        "image": "https://via.placeholder.com/150",
+        "image": "/whiteTop.jpg",
         "stars": 1
     },
     {
@@ -32,7 +32,7 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?",
         "category": "Category 4",
         "price": 400,
-        "image": "https://via.placeholder.com/150",
+        "image": "/Tshirt.jpg",
         "stars": 5
     },
     {
@@ -41,7 +41,7 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?",
         "category": "Category 5",
         "price": 500,
-        "image": "https://via.placeholder.com/150",
+        "image": "/koszula.jpg",
         "stars": 2
     }
 ]

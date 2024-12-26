@@ -14,7 +14,7 @@ const ProductsSec = () => {
             <img
               src={product.image}
               alt={product.title}
-              className="rounded-t-2xl object-contain h-[250px]"
+              className="rounded-t-2xl object-cover h-[250px]"
             />
             <div className="flex flex-col space-y-3 my-6 text-center">
               <h3 className="font-semibold text-[#6C757D]">

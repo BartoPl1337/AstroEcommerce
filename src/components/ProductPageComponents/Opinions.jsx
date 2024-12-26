@@ -31,31 +31,11 @@ const Opinions = () => {
           </div>
 
           <div className="flex flex-col space-y-2">
-            <Stars
-                star="5"
-                procent={75}
-                opinions = {2}
-            />
-            <Stars
-                star="4"
-                procent={90}
-                opinions = {30}
-            />
-            <Stars
-                star="3"
-                procent={50}
-                opinions = {50}
-            />
-            <Stars
-                star="2"
-                procent={0}
-                opinions = {0}
-            />
-            <Stars
-                star="1"
-                procent={25}
-                opinions = {1}
-            />
+            <Stars star="5" procent={75} opinions={2} />
+            <Stars star="4" procent={90} opinions={30} />
+            <Stars star="3" procent={50} opinions={50} />
+            <Stars star="2" procent={0} opinions={0} />
+            <Stars star="1" procent={25} opinions={1} />
           </div>
 
           <div className="flex flex-col space-y-2">
@@ -76,27 +56,9 @@ const Opinions = () => {
         </div>
 
         <div className="w-2/3 flex flex-col space-y-8">
-          <Opinionsection
-            star="3"
-            desc="If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. "
-            img="avatar.png"
-            name="Alexa Liras"
-            date="03 March 2022"
-          />
-          <Opinionsection
-            star="1"
-            desc="We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don’t appreciate the moment until it’s passed."
-            img="Avatars.png"
-            name="Laurent Perrier"
-            date="23 May 2021"
-          />
-          <Opinionsection
-            star="5"
-            desc="There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment."
-            img="Avatars1.png"
-            name="Michael Levi"
-            date="30 December 2019"
-          />
+          <Opinionsection date="03 March 2022" id={1} />
+          <Opinionsection date="23 May 2021" id={3} />
+          <Opinionsection id={4} date="30 December 2019" />
         </div>
       </div>
     </div>

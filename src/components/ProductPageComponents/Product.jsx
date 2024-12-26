@@ -19,7 +19,7 @@ const Product = () => {
         <h1 className="font-semibold text-[#1E293B]">{found.title}</h1>
       </div>
 
-      <div className="flex">
+      <div className="flex gap-16">
         <div className="flex-1">
           <img src={found.image} alt="" className="object-cover" />
         </div>

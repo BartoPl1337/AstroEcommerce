@@ -3,28 +3,28 @@
         "id": 1,
         "name": "John Doe",
         "stars": 4,
-        "avatar": "https://via.placeholder.com/150",
+        "avatar": "/avatar.png",
         "opinion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi?"
     },
     {
         "id": 2,
         "name": "Jane Doe",
         "stars": 5,
-        "avatar": "https://via.placeholder.com/150",
+        "avatar": "/avatar.png",
         "opinion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi."
     },
     {
         "id": 3,
         "name": "Alice Doe",
         "stars": 1,
-        "avatar": "https://via.placeholder.com/150",
+        "avatar": "/Avatars.png",
         "opinion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore tenetur nisi."
     },
     {
         "id": 4,
         "name": "Bob Doe",
         "stars": 5,
-        "avatar": "https://via.placeholder.com/150",
+        "avatar": "/Avatars1.png",
         "opinion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, officiis. Porro nihil cum facere quas voluptatibus provident, ipsa velit quia qui itaque, officiis fugit distinctio, sed id architecto ipsam blanditiis? Eum maxime ipsum, laudantium amet totam ad, temporibus architecto officia aliquid cumque qui, sapiente repellat vero tempore rerum corporis? Vero saepe veritatis autem? Unde, impedit? Tempora adipisci inventore ten"
     }
 ]
