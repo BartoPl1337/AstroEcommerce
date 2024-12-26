@@ -1,18 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 import AccordingComponent from "./According-Component";
 
 const FilterPanel = () => {
-useEffect(() => {
-  fetch("https://api.escuelajs.co/api/v1/categories")
-  .then(res => {
-    return res.json()
-  })
-  .then (data => {
-    console.log(data)
-  })
-}, [])
 return (
-    <div className="w-[600px]">
+    <div className="w-[450px]">
       <ul className="border-b font-semibold text-xl flex flex-col space-y-3">
         <li>Man</li>
         <li>Woman</li>
