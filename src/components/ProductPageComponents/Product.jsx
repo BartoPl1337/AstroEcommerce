@@ -1,12 +1,24 @@
 import { Heart, Star } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
 import AccordingProduct from "./According-Product";
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
+import { useLocalStorage } from "usehooks-ts";
 
 const Product = () => {
+  const [value, setValue, removeValue] = useLocalStorage(
+    "visitedProducts",
+    null
+  );
   const params = useParams();
   const found = data.find((product) => product.id === parseInt(params.id));
+  useEffect(() => {
+    setValue(
+      value
+        ? [found.id, ...value.filter((item) => item !== found.id)]
+        : [found.id]
+    );
+  }, []);
   return (
     <div className="my-28 mx-32">
       <div className="flex flex-col mb-8 space-y-2">
